@@ -10,16 +10,16 @@ This repository provides a modular Python pipeline to process raw IMU data from 
 # Description
 Frailty classification framework used the stride-based spatio-temporal features, extracted from the FRAILPOL database. This strategy allowed us to evaluate the effectiveness of the retrieved stride-segmentation-based spatio-temporal gait parameters. Five supervised ML algorithms, including Linear Support Vector Classifier (Linear SVC), Random Forest (RF), XGBoost, AdaBoost, and Multilayer Perceptron (MLP), were evaluated in both binary (robust vs. frail) and multi-class (robust, pre-frail, or frail) classification approaches.
 
-🔧 Key Features
-1.📥 CSV Reader: Imports and validates raw IMU sensor data (5 positions).
-2.🔍 Data Checker: Detects missing sensor files or NaNs per participant.
-3.🧮 Gait Parameter Extraction: Computes features using gaitmap library.
-4.🧠 Frailty Classification:
-    Binary (e.g., frail vs. non-frail)
-    Three-class (e.g., robust, pre-frail, frail)
-5.💾 Modular Structure: Each processing step is handled by separate script files for clarity and reuse.
+# Key Features 🔧
+    1.📥 CSV Reader: Imports and validates raw IMU sensor data (5 positions).
+    2.🔍 Data Checker: Detects missing sensor files or NaNs per participant.
+    3.🧮 Gait Parameter Extraction: Computes features using gaitmap library.
+    4.🧠 Frailty Classification:
+            Binary (e.g., frail vs. non-frail)
+            Three-class (e.g., robust, pre-frail, frail)
+    5.💾 Modular Structure: Each processing step is handled by separate script files for clarity and reuse.
 
-📝 Notes
+# Notes 📝
 Before running classification models, add a Targets column (labels) to the gait parameters CSV file (if saved).
 Example label files:
     gait_parameters_2_class.csv
