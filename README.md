@@ -26,19 +26,20 @@ Example label files:
     gait_parameters_3_class.csv
 
 ## 📁 Project Structure
-│
+.
 ├── data/
-│ └── IMU_signals/ # all the raw IMU signal files
-│ └── gait_parameters_2_class.csv # Gait parameters for binary (robust/frail) frailty classification
-│ └── gait_parameters_3_class.csv # Gait parameters for three-class (robust/pre-frail/frail) frailty classification
+│   ├── IMU_signals/                  # All the raw IMU signal files
+│   ├── gait_parameters_2_class.csv  # Gait parameters for binary (robust/frail) frailty classification
+│   └── gait_parameters_3_class.csv  # Gait parameters for three-class (robust/pre-frail/frail) frailty classification
 │
 ├── scripts/
-│ └── read_csv_files.py # Reads and preprocesses CSV files
-│ └── gait_parameters.py # Compute gait parameters (i.e., spatio-temporal) using stride segmentation
-│ └── binary_classification.py # for two class frailty classification (robust/frail)
-│ └── three_class_classification.py # for three class frailty classification (robust/pre-frail/frail)
-│ └── universal_dtw_template.pkl # Customized stride DTW template for stride segmentation
+│   ├── read_csv_files.py            # Reads and preprocesses CSV files
+│   ├── gait_parameters.py           # Compute gait parameters (i.e., spatio-temporal) using stride segmentation
+│   ├── binary_classification.py     # For two-class frailty classification (robust/frail)
+│   ├── three_class_classification.py# For three-class frailty classification (robust/pre-frail/frail)
+│   └── universal_dtw_template.pkl   # Customized stride DTW template for stride segmentation
 │
-├── main.py # Main script to run the entire pipeline
-└── README.md # Project description
+├── main.py                          # Main script to run the entire pipeline
+└── README.md                        # Project description
+
 
