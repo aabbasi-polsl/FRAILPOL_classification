@@ -1,7 +1,7 @@
 # FRAILPOL_classification
 FRAILPOL Database for Prevalence and Determinants of Frailty and Pre-frailty in Elderly People with Quantifying Functional Mobility
 
-# Frailty Sensor Data Processing
+# Repository Introduction
 This repository provides a modular Python pipeline to process raw IMU data from wearable sensors, extract gait parameters, and perform frailty classification (binary and three-class). It is designed for use in research projects involving elderly mobility and health assessment. The dataset consists of CSV files collected from multiple participants wearing IMU sensors at body position i.e., both wrists, ankles and back of sacrum.
 
 # Database
