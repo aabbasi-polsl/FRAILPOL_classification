@@ -26,6 +26,7 @@ Example label files:
     gait_parameters_3_class.csv
 
 ## 📁 Project Structure
+```
 .
 ├── data/
 │   ├── IMU_signals/                  # All the raw IMU signal files
@@ -41,5 +42,4 @@ Example label files:
 │
 ├── main.py                          # Main script to run the entire pipeline
 └── README.md                        # Project description
-
-
+```
