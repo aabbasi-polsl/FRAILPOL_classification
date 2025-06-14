@@ -25,6 +25,9 @@ Example label files:
     gait_parameters_2_class.csv
     gait_parameters_3_class.csv
 
+# Gaitmap Library Instructions
+https://gaitmap.readthedocs.io/en/v2.4.0/README.html 
+
 ## 📁 Project Structure
 ```
 .
