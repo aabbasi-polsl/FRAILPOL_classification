@@ -1,11 +1,11 @@
 # FRAILPOL_classification
-FRAILPOL Database for Prevalence and Determinants of Frailty and Pre-frailty in Elderly People with Quantifying Functional Mobility
+Database FRAILPOL for Prevalence and Determinants of Frailty in the Elderly with Quantifying Functional Mobility
 
 # Repository Introduction
 This repository provides a modular Python pipeline to process raw IMU data from wearable sensors, extract gait parameters, and perform frailty classification (binary and three-class). It is designed for use in research projects involving elderly mobility and health assessment. The dataset consists of CSV files collected from multiple participants wearing IMU sensors at body position i.e., both wrists, ankles and back of sacrum.
 
 # Database
-[write the link of database here]
+https://figshare.com/s/95820daf6aa638c61c3d 
 
 # Description
 Frailty classification framework used the stride-based spatio-temporal features, extracted from the FRAILPOL database. This strategy allowed us to evaluate the effectiveness of the retrieved stride-segmentation-based spatio-temporal gait parameters. Five supervised ML algorithms, including Linear Support Vector Classifier (Linear SVC), Random Forest (RF), XGBoost, AdaBoost, and Multilayer Perceptron (MLP), were evaluated in both binary (robust vs. frail) and multi-class (robust, pre-frail, or frail) classification approaches.
